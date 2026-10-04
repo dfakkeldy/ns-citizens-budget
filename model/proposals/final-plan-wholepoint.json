@@ -1,0 +1,56 @@
+{
+ "departments": {
+  "publicservice": -3,
+  "finance": -2,
+  "servicens": -2,
+  "cyber": -3,
+  "growthdev": -1,
+  "energy": -5
+ },
+ "programs": {
+  "growthdev": {
+   "convention": 1.947760622408001,
+   "econdev": 4.486414916782475,
+   "housing": 49.02,
+   "investns": 12.23,
+   "jobsfund": 6.806219703021218,
+   "operations": 0.18273933929333494,
+   "publichousing": 25.32686541849496
+  },
+  "publicservice": {
+   "auditorgeneral": 5.23,
+   "elections": 2.6597030804197495,
+   "energytribunal": 1.4507471347744088,
+   "equityantiracism": 2.8410464722665507,
+   "execcouncil": 9.76,
+   "foipop": 0.9067169592340055,
+   "humanrights": 1.994777310314812,
+   "intergovaffairs": 3.0223898641133515,
+   "legislative": 18.98060834663185,
+   "lnuaffairs": 2.7201508777020167,
+   "ombudsman": 1.5716427293389428,
+   "operations": 4.14,
+   "policecomplaints": 0.38203007882392764,
+   "prosecution": 24.51,
+   "psc": 15.655979496107161,
+   "securities": 2.1761207021616134,
+   "serviceefficiency": 1.994777310314812
+  },
+  "servicens": {
+   "accessprivacy": 2.102362842820593,
+   "archives": 1.2126790076291691,
+   "citizenservices": 22.888783037543845,
+   "coreservices": 11.645191539610321,
+   "financialservices": 9.067018604058857,
+   "internalaudit": 1.7313235855937208,
+   "operations": 6.986651848250153,
+   "procurement": 5.975989534493338,
+   "programmodernization": 38.39
+  },
+  "energy": {
+   "cleanenergy": 18.83,
+   "operations": 10.0,
+   "resourcedev": 71.17
+  }
+ }
+}

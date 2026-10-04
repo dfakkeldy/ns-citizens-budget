@@ -1,0 +1,77 @@
+# Plan B's five levers. The saving meter is proportional: level = 2029-30 saving / $200M x 5
+# (model/proposals/plan-b-final-output.txt). The other ratings are judgments; each card gives its reasons.
+
+B1:
+  title: Pay settlements below plan, by agreement
+  kind: Plan B lever
+  action: Health workers, teachers, civil servants
+  ratings:
+    - {label: 2029-30 saving, word: "$150M", level: 3.76}
+    - {label: Evidence it can work, word: Mixed, level: 2.5, qual: "negotiated deals held; imposed ones failed"}
+    - {label: Risk to services, word: Low–medium, level: 2.5, tone: neutral}
+    - {label: Pushback, word: High, level: 4, tone: caution}
+  meta:
+    When: "Increases still open when Budget 2027-28 is tabled; civil service from April 2028"
+    Who: "Finance with the health authorities' bargaining councils, teachers and the civil service"
+  notes:
+    - {label: Why these ratings, text: "British Columbia's 2012 and 2014 mandates were reached by agreement; Ontario's Bill 124 and Nova Scotia's Bill 148 were struck down and cost more later. No service is reduced, but the September forecast names staffing pressures as a risk, so recruitment and retention effects must be assessed before any saving is counted. I expect strong resistance at the table, and arbitrators are not bound by a mandate."}
+
+B2:
+  title: Slower growth in physician payments
+  kind: Plan B lever
+  action: Physicians, through the new agreement
+  ratings:
+    - {label: 2029-30 saving, word: "$73M", level: 1.81}
+    - {label: Evidence it can work, word: Moderate, level: 3}
+    - {label: Risk to services, word: Low–medium, level: 2.5, tone: neutral}
+    - {label: Pushback, word: High, level: 4, tone: caution}
+  meta:
+    When: "The agreement that replaces the one ending 31 March 2027"
+    Who: "The Department of Health and Wellness with Doctors Nova Scotia"
+  notes:
+    - {label: Why these ratings, text: "Alberta (2022) and Quebec (2019) negotiated physician restraint; Alberta's 2020 imposed changes were partly reversed. Recruitment and retention are risks to assess with Doctors Nova Scotia, which is why nothing here is unilateral."}
+
+B3:
+  title: Slower growth in drug program costs
+  kind: Plan B lever
+  action: Drug manufacturers and suppliers
+  ratings:
+    - {label: 2029-30 saving, word: "$16M", level: 0.39}
+    - {label: Evidence it can work, word: Low–medium, level: 2.5}
+    - {label: Risk to services, word: Low, level: 2, tone: neutral}
+    - {label: Pushback, word: Medium, level: 3, tone: caution}
+  meta:
+    When: "From 2027-28, through listing and generic decisions"
+    Who: "The Department of Health and Wellness, under national price negotiation"
+  notes:
+    - {label: Why these ratings, text: "The easy savings are already taken: biosimilar switching from 2022 and national price negotiation. No change to premiums, co-pays or coverage; the 2016 reversal shows how sensitive patient costs are."}
+
+B4:
+  title: Slower growth in home-care costs
+  kind: Plan B lever
+  action: Home-support agencies
+  ratings:
+    - {label: 2029-30 saving, word: "$16M", level: 0.41}
+    - {label: Evidence it can work, word: Weak, level: 1.5}
+    - {label: Risk to services, word: Medium, level: 3, tone: caution}
+    - {label: Pushback, word: Medium, level: 3, tone: caution}
+  meta:
+    When: "From 2027-28"
+    Who: "The Department of Seniors and Long-term Care"
+  notes:
+    - {label: Why these ratings, text: "No precedent I found measures savings from home-care rules, audits elsewhere document the harm of rationing, and the billing finding dates from 2017. So the lever is small, and no one may lose assessed hours."}
+
+B5:
+  title: Departments outside protected services to 5%
+  kind: Plan B lever
+  action: Department staff, grant recipients
+  ratings:
+    - {label: 2029-30 saving, word: "$25M", level: 0.63, qual: "upper bound"}
+    - {label: Evidence it can work, word: Low–medium, level: 2}
+    - {label: Risk to services, word: Medium, level: 3, tone: caution}
+    - {label: Pushback, word: Medium, level: 3, tone: caution}
+  meta:
+    When: "Announced in Budget 2027-28; 60% in 2027-28, all from 2028-29"
+    Who: "Thirteen departments; Municipal Affairs excluded"
+  notes:
+    - {label: Why these ratings, text: "British Columbia's 2002 restructuring planned staff cuts through voluntary departures, early retirement and attrition [59]; New Brunswick's 2016 budget planned to cut middle managers 30% over five years, largely by attrition, alongside tax increases [60]. Neither measured what attrition alone delivered. Smaller grants to outside groups are included, the kind of cut reversed in March 2026."}

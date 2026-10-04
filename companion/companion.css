@@ -1,0 +1,112 @@
+/* Companion paper: same fonts and colours as the main submission (book/book.yaml). */
+@import url("fonts.css");
+
+:root {
+  --accent: #13293D;
+  --accent-tint: #E3E9EF;
+  --accent-mid: #9AA6B1;
+  --caution: #B9481C;
+  --ink: #1d1c1a;
+  --ink2: #4a4843;
+}
+
+@page {
+  size: letter;
+  margin: 0.8in 0.85in 0.85in 0.85in;
+  @bottom-left {
+    content: "Planning for AI · companion to my Budget 2027-28 submission";
+    font-family: 'TB Sans', sans-serif;
+    font-size: 7.5pt;
+    color: #4a4843;
+  }
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+    font-family: 'TB Sans', sans-serif;
+    font-size: 7.5pt;
+    color: #4a4843;
+  }
+}
+
+html { background: #fff; }
+body {
+  font-family: 'TB Serif', Georgia, serif;
+  font-size: 10pt;
+  line-height: 1.38;
+  color: var(--ink);
+  margin: 0;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+h1 {
+  font-family: 'TB Serif Display', 'TB Serif', serif;
+  font-weight: 600;
+  font-size: 28pt;
+  line-height: 1.1;
+  color: var(--accent);
+  margin: 0 0 6pt 0;
+  border-bottom: 3pt solid var(--caution);
+  padding-bottom: 6pt;
+}
+h1 + p { color: var(--ink2); font-size: 9.6pt; }
+
+h2 {
+  font-family: 'TB Sans', sans-serif;
+  font-weight: 700;
+  font-size: 13.5pt;
+  color: var(--accent);
+  margin: 12pt 0 5pt 0;
+  padding-top: 3pt;
+  border-top: 1pt solid var(--accent-mid);
+  break-after: avoid;
+}
+h3 {
+  font-family: 'TB Sans', sans-serif;
+  font-weight: 700;
+  font-size: 11pt;
+  color: var(--accent);
+  margin: 11pt 0 3pt 0;
+  break-after: avoid;
+}
+
+p { margin: 0 0 6pt 0; }
+ul, ol { margin: 0 0 6pt 0; padding-left: 16pt; }
+li { margin: 0 0 2pt 0; }
+li > ul, li > ol { margin-top: 2pt; }
+strong { font-weight: 700; color: #111; }
+
+hr { display: none; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 4pt 0 8pt 0;
+  font-family: 'TB Sans', sans-serif;
+  font-size: 9pt;
+  break-inside: avoid;
+}
+th {
+  background: var(--accent);
+  color: #fff;
+  text-align: left;
+  padding: 3pt 6pt;
+  font-weight: 700;
+}
+td { padding: 2.4pt 6pt; border-bottom: 0.6pt solid var(--accent-mid); vertical-align: top; }
+tr:last-child td { background: var(--accent-tint); font-weight: 700; }
+td:last-child, th:last-child { text-align: right; white-space: nowrap; }
+
+/* Page breaks: keep short bullets whole, keep each "Ask:" label with its list,
+   keep each ask's closing "Cost:" line with the ask, and keep the questions together. */
+li:not(:has(ul, ol)) { break-inside: avoid; }
+li > ul, li > ol { break-before: avoid; }
+li:has(> ul) > ul > li:first-child { break-before: avoid; }
+h3 + ul > li:last-child { break-before: avoid; }
+h2#questions-i-would-like-budget-2027-28-to-answer + ol { break-inside: avoid; }
+/* keep the closing thanks and the signature together, after the questions */
+h2#questions-i-would-like-budget-2027-28-to-answer + ol + p, h2#questions-i-would-like-budget-2027-28-to-answer + ol + p + p { break-inside: avoid; }
+h2#questions-i-would-like-budget-2027-28-to-answer + ol + p + p { break-before: avoid; }
+
+/* Sources: smaller than the body but readable in print; URLs allowed to wrap */
+h2#sources ~ ol, h2#sources ~ ol li { font-size: 8.1pt; line-height: 1.27; color: var(--ink2); }
+a { color: var(--accent); text-decoration: none; word-break: break-all; }

@@ -1,0 +1,28 @@
+                                                  2027-28    2028-29    2029-30
+Proposed deficit (path.py)                        1,150.2    1,050.4      855.7
+  below plan, incl. interest                         -1.4        1.7        6.0
+Plan net debt-to-GDP (after contingency)            42.8%      45.0%      46.0%
+With this plan's deficit path (path.py)             42.8%      45.0%      46.0%
+  capital deferred or lapsed (A4), cum. $M             75        150        225
+  net debt with A4, $M                             31,437     34,105     36,090
+  net debt-to-GDP with A4                           42.7%      44.8%      45.7%
+Gap to the 40% guardrail, plan, $M                  2,070      3,803      4,714
+Gap to the 40% guardrail, this plan, $M             1,996      3,653      4,483
+Plan, no LTC change, after contingency              38.9%      41.1%      42.2%
+This plan + A4, no LTC change                       38.8%      40.9%      41.9%
+
+Plan's own slope 2028-29 to 2029-30: -190.4 a year (illustrative straight line, not a forecast).
+  2030-31: 665.3
+  2031-32: 474.9
+  2032-33: 284.5
+  2033-34: 94.1
+  2034-35: -96.3
+First year at or below balance on that line: 2034-35.
+On the plan alone, same line: 2034-35.
+
+Guardrail illustration: nominal GDP +3.8% a year (plan's 2029-30 rate); deficit falls 190.4 a year to zero, then zero; deferred capital ($225M) returns in 2030-31.
+  net capital $1,204.7M a year: under 40% first in 2045-46 (39.8%)
+  net capital $600.0M a year: under 40% first in 2038-39 (39.1%)
+
+Balancing 2027-28 needs $1,150.2M more: 40% of the $2,895.5M in the 14 simulator departments not labelled protected or locked; 2.3x the simulator's maximum cut ($508.4M).
+Balancing 2029-30 needs $855.7M more = 4.6% of 2029-30 departmental expenses ($18,634.9M).

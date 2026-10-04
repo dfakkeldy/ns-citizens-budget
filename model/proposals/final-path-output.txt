@@ -1,0 +1,16 @@
+Interest rate on avoided borrowing: 4.2% (half rate in first year)
+
+                                      2027-28    2028-29    2029-30
+Plan deficit (Addendum)               1,148.8    1,052.1      861.7
+Risk case if overruns persist         1,384.2    1,287.5    1,097.1
+FSP target already in plan              590.0      724.5      882.0
+  named by this plan (booked)            85.5      153.7      209.7
+Overruns prevented (protect)             29.0       48.0       67.0
+Additional savings                       -1.4        1.7        5.9
+Growth revenue (net)                      0.0        0.0        0.0
+Interest saved                           -0.0       -0.0        0.1
+Proposed deficit                      1,150.2    1,050.4      855.7
+Plan net debt-to-GDP                    42.8%      45.0%      46.0%
+Proposed net debt-to-GDP                42.8%      45.0%      46.0%
+
+Guardrail: under 40%. Sept 2026 forecast for 2026-27: $1,490.3M.

@@ -1,0 +1,183 @@
+# Glossary: the words the page footers explain.
+# acronym: spelled out on every page it appears; term: defined where first used, reminded later.
+
+- key: HST
+  kind: acronym
+  short: Harmonized Sales Tax
+  more: the combined federal and provincial sales tax.
+- key: NS
+  kind: acronym
+  short: Nova Scotia
+  match: ['\bNS\b']
+- key: NSGEU
+  kind: acronym
+  short: Nova Scotia Government and General Employees Union
+- key: NSLC
+  kind: acronym
+  short: Nova Scotia Liquor Corporation
+- key: NSGC
+  kind: acronym
+  short: Nova Scotia Gaming Corporation
+- key: NSCC
+  kind: acronym
+  short: Nova Scotia Community College
+- key: HRM
+  kind: acronym
+  short: Halifax Regional Municipality
+- key: CBRM
+  kind: acronym
+  short: Cape Breton Regional Municipality
+- key: IWK
+  kind: acronym
+  short: IWK Health
+  more: the health authority for children, youth and women in Halifax, named for Izaak Walton Killam.
+- key: ACOA
+  kind: acronym
+  short: Atlantic Canada Opportunities Agency
+  more: the federal regional development agency.
+- key: CBC
+  kind: acronym
+  short: Canadian Broadcasting Corporation
+- key: DBRS
+  kind: acronym
+  short: Morningstar DBRS
+  more: a credit rating agency (originally Dominion Bond Rating Service).
+- key: S&P
+  kind: acronym
+  short: S&P Global Ratings
+  more: a credit rating agency.
+  match: ['S&P']
+- key: OECD
+  kind: acronym
+  short: Organisation for Economic Co-operation and Development
+- key: US
+  kind: acronym
+  short: United States
+  match: ['\bUS\b']
+- key: UK
+  kind: acronym
+  short: United Kingdom
+  match: ['\bUK\b']
+- key: Fiscal Stability Plan
+  kind: term
+  short: the government's plan to slow spending growth
+  more: it counts on savings of $590.0 million in 2027-28, $724.5 million in 2028-29 and $882.0 million in 2029-30 that are not yet itemized by department.
+  match: ['Fiscal Stability Plan']
+- key: Addendum
+  kind: term
+  short: the March 2026 update to Budget 2026-27
+  more: it reinstated $53.6 million of grants and restated the four-year plan; its figures are the budget as passed.
+  match: ['\bAddendum\b']
+- key: contingency
+  kind: term
+  short: money set aside for the unexpected
+  more: the plan holds $50 million a year; deficits here are after it.
+  match: ['\bcontingency\b']
+- key: additional appropriations
+  kind: term
+  short: spending above the budget approved by Cabinet
+  more: in Nova Scotia these do not need a vote in the House of Assembly.
+  match: ['\badditional appropriations?\b']
+- key: Restructuring Costs
+  kind: term
+  short: a central provision for wage settlements, workforce changes and other initiatives
+  more: it is not broken down in the budget.
+  match: ['Restructuring Costs']
+- key: net debt
+  kind: term
+  short: what the Province owes minus its financial assets
+  more: shown here as a share of the economy (gross domestic product).
+  match: ['\bnet debt\b']
+- key: guardrail
+  kind: term
+  short: the government's own limit of keeping net debt under 40% of the economy
+  match: ['\bguardrail\b']
+- key: attrition
+  kind: term
+  short: leaving positions empty as people retire or move on, instead of laying anyone off
+  match: ['\battrition\b']
+- key: sole-source
+  kind: term
+  short: a contract awarded without competition
+  match: ['\bsole-source\b']
+- key: alternative procurement
+  kind: term
+  short: buying without a full open competition, under exceptions in the procurement rules
+  match: ['\balternative \(non-competitive\) procurement\b', '\balternative procurement\b']
+- key: payroll rebate
+  kind: term
+  short: a grant paid back to a company based on the payroll of new jobs it creates
+  match: ['\bpayroll rebates?\b']
+- key: Home First
+  kind: term
+  short: helping patients who no longer need acute hospital care move home, with support
+  match: ['\bHome First\b']
+- key: Bill 148
+  kind: term
+  short: the Public Services Sustainability (2015) Act, which limited public-sector wages; brought into force in 2017
+  more: a court struck it down in February 2026; the cost of the remedy is not yet known.
+  match: ['\bBill 148\b']
+- key: Bill 124
+  kind: term
+  short: a 2019 Ontario law that capped public-sector raises
+  more: courts struck it down and the province paid wage adjustments.
+  match: ['\bBill 124\b']
+- key: arbitration
+  kind: term
+  short: a neutral board that sets terms when the parties cannot agree
+  match: ['\barbitrat(ion|ors?)\b']
+- key: formulary
+  kind: term
+  short: the list of drugs a public plan pays for
+  match: ['\bformulary\b']
+- key: biosimilar
+  kind: term
+  short: a lower-cost version of a biologic drug
+  match: ['\bbiosimilar\w*\b']
+- key: as of right
+  kind: term
+  short: allowed without a rezoning hearing
+  match: ['\bas of right\b']
+- key: right-sizing
+  kind: term
+  short: helping tenants whose unit is now larger than they need move to one that fits
+  match: ['\bright-sizing\b']
+- key: over-housed
+  kind: term
+  short: living in a unit with more bedrooms than the household needs
+  match: ['\bover-housed\b']
+- key: dual-use
+  kind: term
+  short: infrastructure that serves both civilian and defence needs
+  match: ['\bdual-use\b']
+- key: AI
+  kind: acronym
+  short: artificial intelligence
+- key: BC
+  kind: acronym
+  short: British Columbia
+  match: ['\bB\.?C\.?(?=[\s,.;:)]|$)']
+- key: CHBA
+  kind: acronym
+  short: Canadian Home Builders' Association
+- key: CIHI
+  kind: acronym
+  short: Canadian Institute for Health Information
+- key: CMHC
+  kind: acronym
+  short: Canada Mortgage and Housing Corporation
+- key: CSDS
+  kind: acronym
+  short: Cyber Security and Digital Solutions
+  more: the provincial department for information technology.
+- key: NBER
+  kind: acronym
+  short: National Bureau of Economic Research
+  more: a United States research organization.
+- key: OPOR
+  kind: acronym
+  short: One Person One Record
+  more: Nova Scotia's new electronic health record system.
+- key: WP
+  kind: acronym
+  short: working paper

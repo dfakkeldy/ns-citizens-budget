@@ -1,0 +1,8 @@
+{
+  "name": "textbook-build",
+  "private": true,
+  "description": "Paginates the book in headless Chrome and prints it to PDF",
+  "dependencies": {
+    "puppeteer-core": "^25.12.0"
+  }
+}

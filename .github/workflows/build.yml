@@ -1,0 +1,85 @@
+name: Build and check
+
+# Builds both PDFs and runs every check on each pull request and push to main.
+# The PDFs are attached to the run (Summary page, "Artifacts").
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: System tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc poppler-utils
+          # Chrome on Ubuntu runners needs its sandbox off; wrap it so every build step uses the same flags.
+          printf '#!/bin/sh\nexec /usr/bin/google-chrome --no-sandbox "$@"\n' | sudo tee /usr/local/bin/chrome-ci >/dev/null
+          sudo chmod +x /usr/local/bin/chrome-ci
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Python and Node packages
+        working-directory: book
+        run: |
+          python -m venv .venv
+          .venv/bin/pip install -r build/requirements.txt
+          (cd build && npm ci)
+
+      - name: Fonts (downloaded from Google Fonts and cut to static TrueType)
+        working-directory: book
+        run: .venv/bin/python build/fonts.py
+
+      - name: Build and check the submission
+        working-directory: book
+        env:
+          CHROME: /usr/local/bin/chrome-ci
+        run: ./build_all.sh
+
+      - name: Build and check the companion
+        env:
+          CHROME: /usr/local/bin/chrome-ci
+        run: companion/build.sh
+
+      - name: Attach the PDFs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: |
+            book/own-costs-first-budget-2027-28.pdf
+            companion/planning-for-ai-2027-28.pdf
+          if-no-files-found: warn
+
+      - name: Comment on the pull request
+        if: success() && github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { execSync } = require('child_process');
+            const pages = f => execSync(`pdfinfo ${f} | awk '/^Pages:/{print $2}'`).toString().trim();
+            const run = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const body = [
+              'All checks passed. The rebuilt PDFs are attached to this run:',
+              `- Own costs first: ${pages('book/own-costs-first-budget-2027-28.pdf')} pages`,
+              `- Planning for AI: ${pages('companion/planning-for-ai-2027-28.pdf')} pages`,
+              '',
+              `Download them from the run's Artifacts: ${run}`,
+            ].join('\n');
+            await github.rest.issues.createComment({ ...context.repo, issue_number: context.issue.number, body });

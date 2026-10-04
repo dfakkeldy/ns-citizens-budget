@@ -1,0 +1,1617 @@
+{
+    "fiscalYear": "2026-27",
+    "totals": {
+        "fiscalYear": "2026-27",
+        "totalRevenue": 17354266,
+        "totalExpense": 18590000,
+        "consolidationAdjustments": 386936,
+        "deficitBeforeContingency": -1235734,
+        "contingency": 0,
+        "deficitAfterContingency": -1235734,
+        "netDebt": 28000000,
+        "netDebtToGdp": 0.394,
+        "priorNetDebtToGdp": 0.35,
+        "capitalPlan": 3500000,
+        "restructuringCosts": 527721,
+        "fiscalStabilitySavings": 304900,
+        "realGdpGrowth": 0.015,
+        "nominalGdpGrowth2026": 0.034,
+        "nominalGdpGrowth2027": 0.037,
+        "avgFamilyTaxSavings": 1400,
+        "sourceTitle": "Nova Scotia Budget 2026-27 - Defending Nova Scotia: Planning for the long term",
+        "sourceUrl": "https://novascotia.ca/budget/",
+        "sourceDocUrl": "https://www.novascotia.ca/documents/budget-documents-2026-2027"
+    },
+    "departments": [
+        {
+            "deptId": "advanced",
+            "name": "Advanced Education",
+            "type": "discretionary",
+            "description": "Funds universities and student financial assistance.",
+            "budget": 544214,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "graduation-cap"
+        },
+        {
+            "deptId": "agriculture",
+            "name": "Agriculture",
+            "type": "discretionary",
+            "description": "Supports farmers through funding programs, food safety, and agricultural research.",
+            "budget": 48000,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "wheat"
+        },
+        {
+            "deptId": "ccth",
+            "name": "Communities, Culture, Tourism and Heritage",
+            "type": "discretionary",
+            "description": "Funds museums, libraries, arts, tourism marketing, and heritage sites. Includes African Nova Scotian Affairs, Acadian Affairs and Gaelic Affairs.",
+            "budget": 162930,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "landmark"
+        },
+        {
+            "deptId": "cyber",
+            "name": "Cyber Security and Digital Solutions",
+            "type": "coreops",
+            "description": "Runs the province's digital infrastructure and cybersecurity: the critical technology behind registries, government services, public data, and the broader economy.",
+            "budget": 322800,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "shield-lock"
+        },
+        {
+            "deptId": "debtservice",
+            "name": "Debt Servicing Costs",
+            "type": "locked",
+            "description": "Interest payments on the province's outstanding debt.",
+            "budget": 1030107,
+            "maxCutPct": null,
+            "maxIncreasePct": null,
+            "icon": "lock"
+        },
+        {
+            "deptId": "education",
+            "name": "Education and Early Childhood Development",
+            "type": "protected",
+            "description": "Runs public schools, early learning and child care, and student support services.",
+            "budget": 2343767,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "book"
+        },
+        {
+            "deptId": "emergency",
+            "name": "Emergency Management",
+            "type": "protected",
+            "description": "Coordinates emergency planning and response to wildfires, floods, and other disasters.",
+            "budget": 63100,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "siren"
+        },
+        {
+            "deptId": "energy",
+            "name": "Energy",
+            "type": "discretionary",
+            "description": "Regulates the energy sector and runs renewable energy and energy-efficiency programs.",
+            "budget": 46000,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "zap"
+        },
+        {
+            "deptId": "environment",
+            "name": "Environment and Climate Change",
+            "type": "discretionary",
+            "description": "Runs climate change programs, pollution monitoring, and environmental protection.",
+            "budget": 59877,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "leaf"
+        },
+        {
+            "deptId": "finance",
+            "name": "Finance and Treasury Board",
+            "type": "coreops",
+            "description": "Manages the province's budget, debt, and financial reporting.",
+            "budget": 48200,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "calculator"
+        },
+        {
+            "deptId": "fisheries",
+            "name": "Fisheries and Aquaculture",
+            "type": "discretionary",
+            "description": "Supports the fisheries and aquaculture industries, including licensing programs.",
+            "budget": 17900,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "fish"
+        },
+        {
+            "deptId": "growthdev",
+            "name": "Growth and Development",
+            "type": "discretionary",
+            "description": "Improves productivity, advances strategic sectors and supports innovation, investment and exports. Expands housing supply, supporting affordability and access to home ownership.",
+            "budget": 456935,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "trending-up"
+        },
+        {
+            "deptId": "health",
+            "name": "Health and Wellness",
+            "type": "protected",
+            "description": "Runs hospitals, primary care, mental health and addictions services, and drug programs across the province.",
+            "budget": 7128900,
+            "maxCutPct": 0,
+            "maxIncreasePct": 0.05,
+            "icon": "heart"
+        },
+        {
+            "deptId": "justice",
+            "name": "Justice",
+            "type": "protected",
+            "description": "Runs the courts, correctional services, policing support, and legal aid.",
+            "budget": 536519,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "scale"
+        },
+        {
+            "deptId": "labour",
+            "name": "Labour, Skills and Immigration",
+            "type": "discretionary",
+            "description": "Delivers skills training, apprenticeships, immigration settlement programs and funding for Nova Scotia Community College",
+            "budget": 432000,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "users"
+        },
+        {
+            "deptId": "municipal",
+            "name": "Municipal Affairs",
+            "type": "coreops",
+            "description": "Provides funding and oversight for towns, municipalities, and local governments.",
+            "budget": 287000,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "building"
+        },
+        {
+            "deptId": "naturalres",
+            "name": "Natural Resources",
+            "type": "discretionary",
+            "description": "Manages forestry, mining, and parks on Crown land.",
+            "budget": 131455,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "trees"
+        },
+        {
+            "deptId": "pension",
+            "name": "Pension Valuation Adjustment",
+            "type": "locked",
+            "description": "An accounting adjustment reflecting changes in the value of the province's pension obligations.",
+            "budget": -28914,
+            "maxCutPct": null,
+            "maxIncreasePct": null,
+            "icon": "lock"
+        },
+        {
+            "deptId": "publicservice",
+            "name": "Corporate Offices",
+            "type": "coreops",
+            "description": "Various Offices, such as the Auditor General, Elections Nova Scotia, Equity and Anti-Racism, and L'nu. Also labour negotiations, human resources, and other internal operations across government.",
+            "budget": 165432,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "briefcase"
+        },
+        {
+            "deptId": "publicworks",
+            "name": "Public Works",
+            "type": "protected",
+            "description": "Builds and maintains highways, bridges, and public infrastructure, including winter snow removal.",
+            "budget": 922327,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "road"
+        },
+        {
+            "deptId": "seniors",
+            "name": "Seniors and Long-term Care",
+            "type": "protected",
+            "description": "Funds long-term care homes, home care, and other supports for older Nova Scotians.",
+            "budget": 1606500,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "shield-heart"
+        },
+        {
+            "deptId": "servicens",
+            "name": "Service Nova Scotia",
+            "type": "coreops",
+            "description": "Includes everyday public-facing services such as drivers licences, birth/death certificates, permits, the provincial archives and freedom of information requests.",
+            "budget": 172758,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "id-card"
+        },
+        {
+            "deptId": "social",
+            "name": "Opportunities and Social Development",
+            "type": "protected",
+            "description": "Delivers income assistance, disability supports including the Human Rights Remedy (this amount is protected), and community social services, including supports for homelessness.",
+            "budget": 1799576,
+            "maxCutPct": 0.05,
+            "maxIncreasePct": 0.05,
+            "icon": "hands"
+        },
+        {
+            "deptId": "taxcredits",
+            "name": "Refundable Tax Credits",
+            "type": "locked",
+            "description": "Tax credits paid out directly to individuals and businesses, such as the Affordable Living Tax Credit.",
+            "budget": 160569,
+            "maxCutPct": null,
+            "maxIncreasePct": null,
+            "icon": "lock"
+        }
+    ],
+    "programs": [
+        {
+            "programId": "advanced:accountability",
+            "deptId": "advanced",
+            "name": "Post-Secondary Programs and Oversight",
+            "budget": 2200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "advanced:grantsuniversities",
+            "deptId": "advanced",
+            "name": "University Funding to Support Operations",
+            "budget": 460880,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "advanced:operations",
+            "deptId": "advanced",
+            "name": "Department Operations",
+            "budget": 10472,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "advanced:studentassistance",
+            "deptId": "advanced",
+            "name": "Student Financial Aid and Accessibility Supports",
+            "budget": 70662,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "agriculture:agops",
+            "deptId": "agriculture",
+            "name": "Agriculture Operations",
+            "budget": 10500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "agriculture:industrydev",
+            "deptId": "agriculture",
+            "name": "Industry Development",
+            "budget": 5000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "agriculture:operations",
+            "deptId": "agriculture",
+            "name": "Department Operations",
+            "budget": 17000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "agriculture:riskmgmt",
+            "deptId": "agriculture",
+            "name": "Agriculture Risk Management and Lending",
+            "budget": 15500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:acadianaffairs",
+            "deptId": "ccth",
+            "name": "Acadian Affairs",
+            "budget": 3833,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:ansaffairs",
+            "deptId": "ccth",
+            "name": "African Nova Scotian Affairs",
+            "budget": 5758,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:artgallery",
+            "deptId": "ccth",
+            "name": "Art Gallery of Nova Scotia",
+            "budget": 2008,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:arts",
+            "deptId": "ccth",
+            "name": "Arts NS and Creative Industries",
+            "budget": 21976,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:film",
+            "deptId": "ccth",
+            "name": "Film and Television Fund",
+            "budget": 39375,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:gaelicaffairs",
+            "deptId": "ccth",
+            "name": "Gaelic Affairs",
+            "budget": 561,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:heritage",
+            "deptId": "ccth",
+            "name": "Museums and Heritage Sites",
+            "budget": 18555,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:libraries",
+            "deptId": "ccth",
+            "name": "Public Libraries",
+            "budget": 18730,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:operations",
+            "deptId": "ccth",
+            "name": "Department Operations",
+            "budget": 8132,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:sport",
+            "deptId": "ccth",
+            "name": "Sports and Recreation",
+            "budget": 20898,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "ccth:tourism",
+            "deptId": "ccth",
+            "name": "Tourism Nova Scotia and Marketing",
+            "budget": 23104,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "cyber:cybersecuritytech",
+            "deptId": "cyber",
+            "name": "Cyber Security and Technology",
+            "budget": 263100,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "cyber:digitalsolutions",
+            "deptId": "cyber",
+            "name": "Digital Solutions",
+            "budget": 54500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "cyber:operations",
+            "deptId": "cyber",
+            "name": "Department Operations",
+            "budget": 5200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:childcare",
+            "deptId": "education",
+            "name": "Childcare (Early Learning)",
+            "budget": 336070,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:frenchprograms",
+            "deptId": "education",
+            "name": "French Programs and Services",
+            "budget": 18976,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:learningdiverse",
+            "deptId": "education",
+            "name": "Learning Programs for Diverse Groups",
+            "budget": 42037,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:operations",
+            "deptId": "education",
+            "name": "Department Operations",
+            "budget": 115989,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:preprimary",
+            "deptId": "education",
+            "name": "Pre-Primary",
+            "budget": 71543,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:publiceducationfunding",
+            "deptId": "education",
+            "name": "Public Education Funding, P-12",
+            "budget": 1445766,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:schoolfood",
+            "deptId": "education",
+            "name": "School Food Programs",
+            "budget": 100435,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "education:teacherbenefits",
+            "deptId": "education",
+            "name": "Teacher Benefits",
+            "budget": 212951,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "emergency:firemarshal",
+            "deptId": "emergency",
+            "name": "Office of the Fire Marshal",
+            "budget": 3000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "emergency:incidentmgmt",
+            "deptId": "emergency",
+            "name": "Provincial Incident Management and 911",
+            "budget": 15200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "emergency:operations",
+            "deptId": "emergency",
+            "name": "Department Operations",
+            "budget": 1000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "emergency:planning",
+            "deptId": "emergency",
+            "name": "Planning and Preparedness",
+            "budget": 15300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "emergency:regionalops",
+            "deptId": "emergency",
+            "name": "Regional Operations and Infrastructure",
+            "budget": 28600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "energy:cleanenergy",
+            "deptId": "energy",
+            "name": "Clean Energy",
+            "budget": 8200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "energy:operations",
+            "deptId": "energy",
+            "name": "Department Operations",
+            "budget": 4600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "energy:resourcedev",
+            "deptId": "energy",
+            "name": "Energy Resource Development",
+            "budget": 33200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "environment:climate",
+            "deptId": "environment",
+            "name": "Climate Change",
+            "budget": 29183,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "environment:compliance",
+            "deptId": "environment",
+            "name": "Compliance",
+            "budget": 14728,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "environment:operations",
+            "deptId": "environment",
+            "name": "Department Operations",
+            "budget": 7083,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "environment:sustainability",
+            "deptId": "environment",
+            "name": "Sustainability and Applied Science",
+            "budget": 8883,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "finance:advisory",
+            "deptId": "finance",
+            "name": "Financial Advisory Services",
+            "budget": 18400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "finance:financialinst",
+            "deptId": "finance",
+            "name": "Financial Institutions and Pensions Regulation",
+            "budget": 1700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "finance:gamingops",
+            "deptId": "finance",
+            "name": "Gaming Operations",
+            "budget": 2100,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "finance:operations",
+            "deptId": "finance",
+            "name": "Department Operations",
+            "budget": 26000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "fisheries:aquaculture",
+            "deptId": "fisheries",
+            "name": "Aquaculture",
+            "budget": 3700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "fisheries:inlandfisheries",
+            "deptId": "fisheries",
+            "name": "Inland Fisheries",
+            "budget": 3300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "fisheries:marine",
+            "deptId": "fisheries",
+            "name": "Marine",
+            "budget": 5200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "fisheries:marketing",
+            "deptId": "fisheries",
+            "name": "Marketing",
+            "budget": 3200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "fisheries:operations",
+            "deptId": "fisheries",
+            "name": "Department Operations",
+            "budget": 2500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:convention",
+            "deptId": "growthdev",
+            "name": "Halifax Convention Centre",
+            "budget": 8900,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:econdev",
+            "deptId": "growthdev",
+            "name": "Economic Development",
+            "budget": 20500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:housing",
+            "deptId": "growthdev",
+            "name": "Housing",
+            "budget": 219400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:investns",
+            "deptId": "growthdev",
+            "name": "Invest Nova Scotia",
+            "budget": 65000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:jobsfund",
+            "deptId": "growthdev",
+            "name": "Nova Scotia Jobs Fund",
+            "budget": 31100,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:operations",
+            "deptId": "growthdev",
+            "name": "Department Operations",
+            "budget": 835,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "growthdev:publichousing",
+            "deptId": "growthdev",
+            "name": "Public Housing",
+            "budget": 111200,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:addictionsmentalhealth",
+            "deptId": "health",
+            "name": "Addictions and Mental Health",
+            "budget": 408400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:ems",
+            "deptId": "health",
+            "name": "Emergency Health Services",
+            "budget": 283000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:healthrecruitment",
+            "deptId": "health",
+            "name": "Healthcare Professionals Recruitment",
+            "budget": 5600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:iwk",
+            "deptId": "health",
+            "name": "IWK Health Centre",
+            "budget": 342400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:nsha",
+            "deptId": "health",
+            "name": "Nova Scotia Health",
+            "budget": 3300000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:operations",
+            "deptId": "health",
+            "name": "Department Operations",
+            "budget": 444900,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:otherprograms",
+            "deptId": "health",
+            "name": "Other Programs",
+            "budget": 445700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:pharma",
+            "deptId": "health",
+            "name": "Pharmaceutical Services and Extended Benefits",
+            "budget": 452500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "health:physicianservices",
+            "deptId": "health",
+            "name": "Physician Services",
+            "budget": 1446400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:accessibility",
+            "deptId": "justice",
+            "name": "Accessibility Directorate",
+            "budget": 2476,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:correctional",
+            "deptId": "justice",
+            "name": "Correctional Services",
+            "budget": 97178,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:courtservices",
+            "deptId": "justice",
+            "name": "Court Services and Sheriff Services",
+            "budget": 92822,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:genderbasedviolence",
+            "deptId": "justice",
+            "name": "Gender-Based Violence",
+            "budget": 1490,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:justicesupports",
+            "deptId": "justice",
+            "name": "Justice Supports and Services",
+            "budget": 17228,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:legal",
+            "deptId": "justice",
+            "name": "Legal Services",
+            "budget": 25421,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:legalaid",
+            "deptId": "justice",
+            "name": "Nova Scotia Legal Aid",
+            "budget": 43158,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:medicalexaminer",
+            "deptId": "justice",
+            "name": "Nova Scotia Medical Examiner Service",
+            "budget": 7487,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:operations",
+            "deptId": "justice",
+            "name": "Department Operations",
+            "budget": 15203,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:publicsafety",
+            "deptId": "justice",
+            "name": "Public Safety and Policing Services",
+            "budget": 227246,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:publictrustee",
+            "deptId": "justice",
+            "name": "Office of Public Trustee",
+            "budget": 3753,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "justice:sirt",
+            "deptId": "justice",
+            "name": "Serious Incident Response Team",
+            "budget": 3057,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:apprenticeship",
+            "deptId": "labour",
+            "name": "Nova Scotia Apprenticeship Agency",
+            "budget": 50000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:immigration",
+            "deptId": "labour",
+            "name": "Immigration and Population Growth",
+            "budget": 13400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:labourservices",
+            "deptId": "labour",
+            "name": "Labour Services",
+            "budget": 9700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:nscc",
+            "deptId": "labour",
+            "name": "Nova Scotia Community College",
+            "budget": 196400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:operations",
+            "deptId": "labour",
+            "name": "Department Operations",
+            "budget": 8700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:safety",
+            "deptId": "labour",
+            "name": "Safety",
+            "budget": 22500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "labour:skillslearning",
+            "deptId": "labour",
+            "name": "Skills and Learning",
+            "budget": 131300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "municipal:infrastructurefinance",
+            "deptId": "municipal",
+            "name": "Municipal Infrastructure and Finance",
+            "budget": 281400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "municipal:operations",
+            "deptId": "municipal",
+            "name": "Department Operations",
+            "budget": 5600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "naturalres:forestry",
+            "deptId": "naturalres",
+            "name": "Forestry and Wildlife",
+            "budget": 48694,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "naturalres:geoscience",
+            "deptId": "naturalres",
+            "name": "Geoscience and Mines",
+            "budget": 7484,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "naturalres:land",
+            "deptId": "naturalres",
+            "name": "Land Services",
+            "budget": 4115,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "naturalres:operations",
+            "deptId": "naturalres",
+            "name": "Department Operations",
+            "budget": 8623,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "naturalres:regional",
+            "deptId": "naturalres",
+            "name": "Regional Services",
+            "budget": 62539,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:auditorgeneral",
+            "deptId": "publicservice",
+            "name": "Office of the Auditor General",
+            "budget": 7000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:elections",
+            "deptId": "publicservice",
+            "name": "Elections Nova Scotia",
+            "budget": 4400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:energytribunal",
+            "deptId": "publicservice",
+            "name": "Nova Scotia Energy and Regulatory Boards Tribunal",
+            "budget": 2400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:equityantiracism",
+            "deptId": "publicservice",
+            "name": "Office of Equity and Anti-Racism",
+            "budget": 4700,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:execcouncil",
+            "deptId": "publicservice",
+            "name": "Executive Council",
+            "budget": 17800,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:foipop",
+            "deptId": "publicservice",
+            "name": "Freedom of Information and Protection of Privacy Review Office",
+            "budget": 1500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:humanrights",
+            "deptId": "publicservice",
+            "name": "Human Rights Commission",
+            "budget": 3300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:intergovaffairs",
+            "deptId": "publicservice",
+            "name": "Intergovernmental Affairs",
+            "budget": 5000,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:legislative",
+            "deptId": "publicservice",
+            "name": "Legislative Services",
+            "budget": 31400,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:lnuaffairs",
+            "deptId": "publicservice",
+            "name": "Office of L'nu Affairs",
+            "budget": 4500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:ombudsman",
+            "deptId": "publicservice",
+            "name": "Office of the Ombudsman",
+            "budget": 2600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:operations",
+            "deptId": "publicservice",
+            "name": "Department Operations",
+            "budget": 8500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:policecomplaints",
+            "deptId": "publicservice",
+            "name": "Nova Scotia Police Complaints Commissioner",
+            "budget": 632,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:prosecution",
+            "deptId": "publicservice",
+            "name": "Public Prosecution Service",
+            "budget": 38900,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:psc",
+            "deptId": "publicservice",
+            "name": "Public Service Commission",
+            "budget": 25900,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:securities",
+            "deptId": "publicservice",
+            "name": "Nova Scotia Securities Commission",
+            "budget": 3600,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicservice:serviceefficiency",
+            "deptId": "publicservice",
+            "name": "Office of Service Efficiency",
+            "budget": 3300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:buildinginfra",
+            "deptId": "publicworks",
+            "name": "Building Infrastructure Design and Construction",
+            "budget": 3443,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:engineering",
+            "deptId": "publicworks",
+            "name": "Engineering, Design and Construction Services",
+            "budget": 8482,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:environmentalservices",
+            "deptId": "publicworks",
+            "name": "Environmental Services and Remediation",
+            "budget": 2270,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:ferry",
+            "deptId": "publicworks",
+            "name": "Ferry Enterprises",
+            "budget": 9945,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:fieldops",
+            "deptId": "publicworks",
+            "name": "Field Operations",
+            "budget": 22523,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:fleet",
+            "deptId": "publicworks",
+            "name": "Fleet Management",
+            "budget": 2048,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:grants",
+            "deptId": "publicworks",
+            "name": "Support for Transportation Infrastructure Agencies (Build NS, Link NS, Harbour Bridges, Ferries)",
+            "budget": 225482,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:healthsafety",
+            "deptId": "publicworks",
+            "name": "Health and Safety Division",
+            "budget": 2406,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:highwaybridges",
+            "deptId": "publicworks",
+            "name": "Highway and Bridges",
+            "budget": 98027,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:infrastructure",
+            "deptId": "publicworks",
+            "name": "Infrastructure Management",
+            "budget": 27902,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:maintenance",
+            "deptId": "publicworks",
+            "name": "Transportation Infrastructure Maintenance and Improvements",
+            "budget": 393526,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:operations",
+            "deptId": "publicworks",
+            "name": "Department Operations",
+            "budget": 31449,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:realestate",
+            "deptId": "publicworks",
+            "name": "Real Estate Services",
+            "budget": 5047,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:registry",
+            "deptId": "publicworks",
+            "name": "Registry of Motor Vehicles",
+            "budget": 6311,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:snowice",
+            "deptId": "publicworks",
+            "name": "Snow and Ice Control",
+            "budget": 66905,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:specialprojects",
+            "deptId": "publicworks",
+            "name": "Public Works Special Projects",
+            "budget": 7740,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:vehicleinspection",
+            "deptId": "publicworks",
+            "name": "Vehicle Transportation Inspection",
+            "budget": 8010,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "publicworks:water",
+            "deptId": "publicworks",
+            "name": "Water Utilities",
+            "budget": 811,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "seniors:clientservices",
+            "deptId": "seniors",
+            "name": "Client Services",
+            "budget": 6800,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "seniors:homecare",
+            "deptId": "seniors",
+            "name": "Home Care",
+            "budget": 466900,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "seniors:ltc",
+            "deptId": "seniors",
+            "name": "Long-term Care",
+            "budget": 1076500,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "seniors:operations",
+            "deptId": "seniors",
+            "name": "Department Operations",
+            "budget": 56300,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:accessprivacy",
+            "deptId": "servicens",
+            "name": "Information Access and Privacy",
+            "budget": 3632,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:archives",
+            "deptId": "servicens",
+            "name": "Nova Scotia Archives",
+            "budget": 2095,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:citizenservices",
+            "deptId": "servicens",
+            "name": "Citizen Services",
+            "budget": 37819,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:coreservices",
+            "deptId": "servicens",
+            "name": "Core Services to Government",
+            "budget": 20118,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:financialservices",
+            "deptId": "servicens",
+            "name": "Financial Services to Government",
+            "budget": 15664,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:internalaudit",
+            "deptId": "servicens",
+            "name": "Internal Audit Centre",
+            "budget": 2991,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:operations",
+            "deptId": "servicens",
+            "name": "Department Operations",
+            "budget": 12070,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:procurement",
+            "deptId": "servicens",
+            "name": "Procurement",
+            "budget": 10324,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "servicens:programmodernization",
+            "deptId": "servicens",
+            "name": "Program Modernization (Registries, Business/Consumer Services)",
+            "budget": 68045,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "social:childfamily",
+            "deptId": "social",
+            "name": "Child and Family Wellbeing",
+            "budget": 163345,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "social:disabilitysupport",
+            "deptId": "social",
+            "name": "Disability Support Program",
+            "budget": 798730,
+            "locked": true,
+            "lockedNote": "This program's funding is fixed and can't be adjusted in this tool."
+        },
+        {
+            "programId": "social:employmentsupport",
+            "deptId": "social",
+            "name": "Employment Support and Income Assistance Program",
+            "budget": 667130,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "social:operations",
+            "deptId": "social",
+            "name": "Department Operations",
+            "budget": 35803,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "social:servicedelivery",
+            "deptId": "social",
+            "name": "Client Service Delivery in Community",
+            "budget": 107780,
+            "locked": false,
+            "lockedNote": null
+        },
+        {
+            "programId": "social:statusofwomen",
+            "deptId": "social",
+            "name": "Nova Scotia Advisory Council on the Status of Women",
+            "budget": 26788,
+            "locked": false,
+            "lockedNote": null
+        }
+    ],
+    "growth": [
+        {
+            "projectId": "aidigital",
+            "name": "AI & Digital Economy",
+            "cost": 0,
+            "revenue": 45000,
+            "category": "sector"
+        },
+        {
+            "projectId": "cleanenergy",
+            "name": "Clean & Conventional Energy",
+            "cost": 0,
+            "revenue": 90000,
+            "category": "sector"
+        },
+        {
+            "projectId": "defenceaero",
+            "name": "Defence & Aerospace",
+            "cost": 0,
+            "revenue": 55000,
+            "category": "sector"
+        },
+        {
+            "projectId": "federaltransfers",
+            "name": "Federal Transfers",
+            "cost": 0,
+            "revenue": 0,
+            "category": "federal"
+        },
+        {
+            "projectId": "feeincrease",
+            "name": "Increase Government Fees",
+            "cost": 0,
+            "revenue": 0,
+            "category": "fee"
+        },
+        {
+            "projectId": "fisheriesagrifood",
+            "name": "Seafood & Agri-Food",
+            "cost": 0,
+            "revenue": 30000,
+            "category": "sector"
+        },
+        {
+            "projectId": "forestrymining",
+            "name": "Forestry & Mining",
+            "cost": 0,
+            "revenue": 35000,
+            "category": "sector"
+        },
+        {
+            "projectId": "growoureconomy",
+            "name": "Grow Our Economy",
+            "cost": 0,
+            "revenue": 0,
+            "category": "econgrowth"
+        },
+        {
+            "projectId": "housingconstruction",
+            "name": "Housing & Construction",
+            "cost": 0,
+            "revenue": 65000,
+            "category": "sector"
+        },
+        {
+            "projectId": "taxincrease",
+            "name": "Increase Taxes",
+            "cost": 0,
+            "revenue": 0,
+            "category": "tax"
+        }
+    ],
+    "revenue": [
+        {
+            "groupKey": "federal",
+            "itemKey": "cht",
+            "groupLabel": "Federal Funding",
+            "label": "Canada Health Transfer",
+            "amount": 1507399
+        },
+        {
+            "groupKey": "federal",
+            "itemKey": "cst",
+            "groupLabel": "Federal Funding",
+            "label": "Canada Social Transfer",
+            "amount": 470934
+        },
+        {
+            "groupKey": "federal",
+            "itemKey": "equalization",
+            "groupLabel": "Federal Funding",
+            "label": "Equalization",
+            "amount": 3538394
+        },
+        {
+            "groupKey": "federal",
+            "itemKey": "otherfed",
+            "groupLabel": "Federal Funding",
+            "label": "Other (federal recoveries & cost-sharing)",
+            "amount": 851917
+        },
+        {
+            "groupKey": "otherprov",
+            "itemKey": "fees",
+            "groupLabel": "Other Provincial Sources",
+            "label": "Fees",
+            "amount": 229020
+        },
+        {
+            "groupKey": "otherprov",
+            "itemKey": "gaming",
+            "groupLabel": "Other Provincial Sources",
+            "label": "Nova Scotia Gaming",
+            "amount": 204800
+        },
+        {
+            "groupKey": "otherprov",
+            "itemKey": "investment",
+            "groupLabel": "Other Provincial Sources",
+            "label": "Investment",
+            "amount": 148986
+        },
+        {
+            "groupKey": "otherprov",
+            "itemKey": "nslc",
+            "groupLabel": "Other Provincial Sources",
+            "label": "NSLC (Nova Scotia Liquor Corporation)",
+            "amount": 256005
+        },
+        {
+            "groupKey": "otherprov",
+            "itemKey": "otherprovmisc",
+            "groupLabel": "Other Provincial Sources",
+            "label": "Other (recoveries, Crown assets and a mix of smaller sources)",
+            "amount": 860233
+        },
+        {
+            "groupKey": "taxes",
+            "itemKey": "cit",
+            "groupLabel": "Taxes",
+            "label": "Corporate Tax (from businesses)",
+            "amount": 893408
+        },
+        {
+            "groupKey": "taxes",
+            "itemKey": "fuel",
+            "groupLabel": "Taxes",
+            "label": "Motive Fuel Tax",
+            "amount": 297678
+        },
+        {
+            "groupKey": "taxes",
+            "itemKey": "hst",
+            "groupLabel": "Taxes",
+            "label": "HST",
+            "amount": 2755058
+        },
+        {
+            "groupKey": "taxes",
+            "itemKey": "othertax",
+            "groupLabel": "Taxes",
+            "label": "Other (Tobacco, Cannabis, Vaping & other taxes)",
+            "amount": 407577
+        },
+        {
+            "groupKey": "taxes",
+            "itemKey": "pit",
+            "groupLabel": "Taxes",
+            "label": "Personal Income Tax",
+            "amount": 4932857
+        }
+    ]
+}

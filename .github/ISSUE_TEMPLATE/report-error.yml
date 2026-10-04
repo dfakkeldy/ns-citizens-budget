@@ -1,0 +1,21 @@
+name: Report an error
+description: A wrong number, an outdated fact, a broken link or a typo.
+labels: [error]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where is it?
+      description: Document, page and a few words of the text.
+      placeholder: "Own costs first, p.12: \"Home care was budgeted at $443.3 million\""
+    validations: { required: true }
+  - type: textarea
+    id: what
+    attributes:
+      label: What's wrong, and what should it say?
+    validations: { required: true }
+  - type: textarea
+    id: source
+    attributes:
+      label: Where does the correct figure come from? (optional)
+      description: A link and page, if you have one. It helps, but it isn't required.

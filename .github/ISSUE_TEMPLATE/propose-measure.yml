@@ -1,0 +1,30 @@
+name: Propose a measure
+description: A saving, a protection, a rule, a growth idea or a question for the budget.
+labels: [proposal]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What should the province do?
+    validations: { required: true }
+  - type: textarea
+    id: money
+    attributes:
+      label: What would it cost or save, and when? (optional)
+      description: A rough estimate is fine. Say it's an estimate.
+  - type: textarea
+    id: who
+    attributes:
+      label: Who would it affect? (optional)
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Where does the idea or the figure come from? (optional)
+      description: Links, documents or experience elsewhere. It helps, but it isn't required.
+  - type: checkboxes
+    id: principles
+    attributes:
+      label: Fixed principles
+      options:
+        - label: This proposal fits the four fixed principles in the README (no tax or fee increases, no legislated wage restraint, no front-line cuts, nothing pushed onto municipalities).

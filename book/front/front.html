@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<title>Own costs first: front pages</title>
+<link rel="stylesheet" href="../fonts/fonts.css">
+<style>
+@font-face{font-family:'Instrument Serif';font-style:normal;font-weight:400;src:url('fonts/InstrumentSerif-Regular.ttf') format('truetype');}
+@font-face{font-family:'Instrument Serif';font-style:italic;font-weight:400;src:url('fonts/InstrumentSerif-Italic.ttf') format('truetype');}
+@font-face{font-family:'Plex Mono';font-weight:500;src:url('fonts/IBMPlexMono-Medium.ttf') format('truetype');}
+@font-face{font-family:'Plex Mono';font-weight:600;src:url('fonts/IBMPlexMono-SemiBold.ttf') format('truetype');}
+@page { size: 816px 1056px; margin: 0; }
+:root {
+  --paper: #F4F6F7; --ink: #1B2430; --navy: #13293D; --muted: #4A5866; --soft: #3B4754;
+  --rule: #CBD3D9; --orange: #B9481C; --orange-soft: #F7E3D8; --peach: #F2A27E; --grey: #9AA6B1;
+  --teal: #2C6E78; --chip: #E3E9EF; --white: #FFFFFF;
+  --display: 'Instrument Serif', 'Times New Roman', serif;
+  --sans: 'TB Sans', 'Helvetica Neue', Arial, sans-serif;
+  --mono: 'Plex Mono', Menlo, monospace;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: var(--paper); }
+.page { width: 816px; height: 1056px; position: relative; overflow: hidden; background: var(--paper); color: var(--ink); font-family: var(--sans); padding: 56px 64px 48px; display: flex; flex-direction: column; page-break-after: always; break-after: page; }
+.page:last-child { page-break-after: auto; break-after: auto; }
+.eyebrow { font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--orange); }
+.h1 { margin: 0; font-family: var(--display); font-weight: 400; color: var(--navy); text-wrap: balance; }
+.foot { margin-top: auto; padding-top: 12px; border-top: 1px solid var(--rule); display: flex; justify-content: space-between; gap: 24px; font-size: 12px; color: var(--muted); }
+.mono { font-family: var(--mono); font-variant-numeric: tabular-nums; }
+.card { background: var(--white); border: 1px solid var(--rule); padding: 20px 22px 20px; display: flex; flex-direction: column; gap: 12px; }
+.card ul { margin: 0; padding-left: 18px; display: flex; flex-direction: column; gap: 6px; font-size: 16px; line-height: 1.45; }
+.chip { background: var(--chip); color: var(--navy); padding: 5px 12px; border-radius: 999px; font-size: 14px; }
+figure { margin: 0; display: flex; flex-direction: column; gap: 10px; }
+figcaption { font-size: 13px; line-height: 1.45; color: var(--muted); }
+.ft { font-size: 16px; font-weight: 700; color: var(--navy); }
+svg text { font-family: var(--mono); }
+</style>
+</head>
+<body>
+
+<!-- 1. Cover -->
+<section class="page" style="padding: 64px 64px 56px">
+  <svg width="816" height="560" viewBox="0 0 816 560" style="position: absolute; left: 0; bottom: 0" aria-hidden="true">
+    <g fill="none" stroke="#2C6E78" stroke-width="1.25" opacity="0.32">
+      <path d="M -40 520 C 120 430, 260 470, 380 400 S 640 300, 860 340"/>
+      <path d="M -40 548 C 140 470, 280 505, 400 440 S 660 345, 860 380"/>
+      <path d="M -40 576 C 160 510, 300 540, 420 480 S 680 390, 860 420"/>
+      <path d="M 520 560 C 560 470, 650 430, 760 440 S 860 470, 900 450"/>
+      <path d="M 600 560 C 630 500, 700 475, 780 485 S 860 505, 900 495"/>
+      <path d="M -40 492 C 100 390, 240 435, 360 360 S 620 255, 860 300"/>
+    </g>
+    <g fill="none" stroke="#2C6E78" stroke-width="1.25" opacity="0.18">
+      <path d="M -40 464 C 80 350, 220 400, 340 320 S 600 210, 860 260"/>
+      <path d="M -40 436 C 60 310, 200 365, 320 280 S 580 165, 860 220"/>
+    </g>
+  </svg>
+  <div style="display: flex; justify-content: space-between; align-items: center; gap: 24px; font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy); position: relative">
+    <span>Building Our Budget Together · Nova Scotia 2027-28</span>
+    <span style="color: var(--orange)">Citizen submission</span>
+  </div>
+  <div style="height: 2px; background: var(--navy); margin-top: 18px; position: relative"></div>
+  <div style="margin-top: 72px; display: flex; flex-direction: column; gap: 28px; position: relative">
+    <h1 class="h1" style="font-size: 132px; line-height: 0.9; letter-spacing: -0.01em">Own costs<br><span style="font-style: italic; color: var(--orange)">first.</span></h1>
+    <p style="margin: 0; max-width: 600px; font-size: 22px; line-height: 1.45; color: var(--navy)">A 2027-28 budget for Nova Scotia that starts with government’s own costs, keeps cuts away from care, classrooms and homes, and shows in plain numbers how close we can get to balance without raising taxes.</p>
+  </div>
+  <div style="margin-top: 52px; position: relative; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); background: var(--navy); color: var(--paper)">
+    <div style="padding: 28px 28px 30px; display: flex; flex-direction: column; gap: 10px">
+      <span class="mono" style="font-weight: 600; font-size: 64px; line-height: 1; color: var(--peach)">$590M</span>
+      <span style="font-size: 16px; line-height: 1.45">in savings already counted in next year’s plan. No public document itemizes them by department.</span>
+    </div>
+    <div style="padding: 28px 28px 30px; display: flex; flex-direction: column; gap: 10px; border-left: 1px solid #3B536A">
+      <span class="mono" style="font-weight: 600; font-size: 64px; line-height: 1; color: var(--peach)">$1.49B</span>
+      <span style="font-size: 16px; line-height: 1.45">deficit forecast for this year, $196 million worse than the budget passed in April.</span>
+    </div>
+  </div>
+  <div style="margin-top: auto; position: relative; display: flex; justify-content: space-between; align-items: flex-end; gap: 32px; font-size: 14px; line-height: 1.5; color: var(--navy)">
+    <div style="display: flex; flex-direction: column; gap: 2px">
+      <span style="font-weight: 700; font-size: 16px">Dan Fakkeldy</span>
+      <span>Judique, Inverness County</span>
+      <span>October 2026 · facts as of 3 October 2026</span>
+    </div>
+    <div style="display: flex; flex-direction: column; gap: 2px; text-align: right; color: var(--muted)">
+      <span>Submitted to budget@novascotia.ca</span>
+      <span>Not affiliated with the Government of Nova Scotia</span>
+    </div>
+  </div>
+</section>
+
+<!-- 2. At a glance -->
+<section class="page">
+  <div style="display: flex; flex-direction: column; gap: 12px">
+    <span class="eyebrow">At a glance</span>
+    <h2 class="h1" style="font-size: 50px; line-height: 1.04">Make the plan real. Then get as close to balance as we honestly can.</h2>
+    <p style="margin: 4px 0 0; font-size: 18px; line-height: 1.5; max-width: 640px">Under the rules the government has set, the deficit cannot close quickly. So this submission has two tiers: a plan the government can adopt now, and a priced path toward balance that raises no taxes.</p>
+  </div>
+  <div style="margin-top: 24px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px">
+    <div class="card" style="border-top: 5px solid var(--navy)">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <span class="mono" style="font-size: 13px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted)">PLAN A</span>
+        <span style="font-family: var(--display); font-size: 30px; line-height: 1.1; color: var(--navy)">Make the plan real</span>
+      </div>
+      <ul>
+        <li>Names $85.5 million of the $590 million, government’s own costs first</li>
+        <li>Keeps $29 million of health savings in health to curb overruns</li>
+        <li>Publishes the $590 million by department, with a list of what will not be cut</li>
+      </ul>
+      <div style="margin-top: auto; min-height: 140px; box-sizing: border-box; padding-top: 14px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; gap: 4px">
+        <span class="mono" style="font-size: 34px; font-weight: 600; color: var(--navy); line-height: 1.1">$1.15B</span>
+        <span style="font-size: 15px; line-height: 1.45; color: var(--soft)">2027-28 deficit, about the plan’s own figure. If this year’s overruns recur: $1.36 billion, against $1.38 billion on the plan.</span>
+      </div>
+    </div>
+    <div class="card" style="border-top: 5px solid var(--orange)">
+      <div style="display: flex; flex-direction: column; gap: 2px">
+        <span class="mono" style="font-size: 13px; font-weight: 600; letter-spacing: 0.08em; color: var(--muted)">PLAN B</span>
+        <span style="font-family: var(--display); font-size: 30px; line-height: 1.1; color: var(--navy)">Closer to balance, no new taxes</span>
+      </div>
+      <ul>
+        <li>Public-sector raises below plan, negotiated, never legislated</li>
+        <li>Slower doctor, drug and home-care cost growth through payment rules</li>
+        <li>Departments to 5% where room is left; nothing pushed onto towns</li>
+      </ul>
+      <div style="margin-top: auto; min-height: 140px; box-sizing: border-box; padding-top: 14px; border-top: 1px solid var(--rule); display: flex; flex-direction: column; gap: 4px">
+        <span class="mono" style="font-size: 34px; font-weight: 600; color: var(--orange); line-height: 1.1">$560M</span>
+        <span style="font-size: 15px; line-height: 1.45; color: var(--soft)">2029-30 deficit, against $862 million in the plan ($587 million with no department room left). At an assumed 2% wage path, zero would mean pay cuts.</span>
+      </div>
+    </div>
+  </div>
+  <p style="margin: 12px 0 0; font-size: 13.5px; line-height: 1.5; color: var(--soft)">Illustrative outcomes: both assume the government’s targets ($590 million, rising to $882 million by 2029-30) and every measure here are delivered in full, with no recurring overruns. The Bill 148 remedy is excluded.</p>
+  <div style="margin-top: 16px; display: flex; flex-direction: column; gap: 10px">
+    <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--navy)">Neither plan cuts these, and both ask that they be listed as protected</span>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px">
+      <span class="chip">Nurses, doctors, emergency health services</span>
+      <span class="chip">Rural emergency hours</span>
+      <span class="chip">Classrooms and school food</span>
+      <span class="chip">Long-term care and home care</span>
+      <span class="chip">Disability and income supports</span>
+      <span class="chip">Housing and rent supplements</span>
+      <span class="chip">Transfers to municipalities</span>
+      <span class="chip">No tax or fee increases</span>
+    </div>
+  </div>
+  <div class="foot"><span>Own costs first · Budget 2027-28 submission</span><span>At a glance</span></div>
+</section>
+
+<!-- 3. Where things stand -->
+<section class="page">
+  <div style="display: flex; flex-direction: column; gap: 12px">
+    <span class="eyebrow">Where things stand</span>
+    <h2 class="h1" style="font-size: 46px; line-height: 1.05">The plan counts on $590 million of savings with no public ledger.</h2>
+  </div>
+
+  <figure style="margin-top: 24px">
+    <span class="ft">The $590 million target: an illustrative allocation</span>
+    <svg width="688" height="100" viewBox="0 0 688 100" role="img" aria-label="Of the $590 million, up to $272.6 million is this year's cuts continuing, $85.5 million is proposed in Plan A, and at least $231.9 million is still to identify under these assumptions.">
+      <rect x="0" y="6" width="317.9" height="36" fill="#9AA6B1"/>
+      <rect x="317.9" y="6" width="99.7" height="36" fill="#13293D"/>
+      <rect x="418.6" y="7" width="268.4" height="34" fill="#F7E3D8" stroke="#B9481C" stroke-width="2" stroke-dasharray="6 4"/>
+      <text x="2" y="66" font-size="15" font-weight="600" fill="#1B2430">Up to $272.6M</text>
+      <text x="2" y="86" font-size="13" fill="#3B4754" style="font-family: 'TB Sans', sans-serif">this year’s cuts continuing</text>
+      <text x="322" y="66" font-size="15" font-weight="600" fill="#13293D">$85.5M</text>
+      <text x="322" y="86" font-size="13" fill="#3B4754" style="font-family: 'TB Sans', sans-serif">proposed in Plan A</text>
+      <text x="686" y="66" text-anchor="end" font-size="15" font-weight="600" fill="#B9481C">At least $231.9M</text>
+      <text x="686" y="86" text-anchor="end" font-size="13" fill="#3B4754" style="font-family: 'TB Sans', sans-serif">still to identify</text>
+    </svg>
+    <figcaption>Budget 2026-27 Addendum, Table 3.1. Assumes all of this year’s reductions continue and Plan A’s $85.5 million is delivered; Finance should confirm. On the other reading of the table, $504.5 million is still to identify.</figcaption>
+  </figure>
+
+  <figure style="margin-top: 22px">
+    <span class="ft">The deficit path, $ millions after contingency</span>
+    <div style="display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 13px; color: var(--soft)">
+      <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="22" height="6" aria-hidden="true"><line x1="0" y1="3" x2="22" y2="3" stroke="#13293D" stroke-width="3"/></svg>Government’s plan and Plan A (within $6 million each year)</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="22" height="6" aria-hidden="true"><line x1="0" y1="3" x2="22" y2="3" stroke="#B9481C" stroke-width="3"/></svg>Plan B</span>
+      <span style="display: inline-flex; align-items: center; gap: 6px"><svg width="12" height="16" aria-hidden="true"><line x1="6" y1="16" x2="6" y2="7" stroke="#4A5866" stroke-width="2" stroke-dasharray="2 2"/><circle cx="6" cy="5" r="4" fill="#F4F6F7" stroke="#4A5866" stroke-width="2"/></svg>2027-28 if this year’s overruns recur</span>
+    </div>
+    <svg width="688" height="260" viewBox="0 0 688 260" role="img" aria-label="2026-27 forecast 1,490. Government's plan 1,149, 1,052 and 862; Plan A 1,150, 1,050 and 856, drawn as one line; Plan B 1,079, 867 and 560, for 2027-28 to 2029-30. If this year's overruns recur, 2027-28 reaches 1,384 on the plan, 1,356 with Plan A and 1,285 with Plan B.">
+      <g stroke="#CBD3D9" stroke-width="1">
+        <line x1="56" y1="226" x2="688" y2="226"/>
+        <line x1="56" y1="160.4" x2="688" y2="160.4"/>
+        <line x1="56" y1="94.8" x2="688" y2="94.8"/>
+        <line x1="56" y1="29.1" x2="688" y2="29.1"/>
+      </g>
+      <g font-size="12" font-weight="500" fill="#4A5866">
+        <text x="48" y="230" text-anchor="end">0</text>
+        <text x="48" y="164.4" text-anchor="end">500</text>
+        <text x="48" y="98.8" text-anchor="end">1,000</text>
+        <text x="48" y="33.1" text-anchor="end">1,500</text>
+        <text x="110" y="250" text-anchor="middle">2026-27</text>
+        <text x="290" y="250" text-anchor="middle">2027-28</text>
+        <text x="470" y="250" text-anchor="middle">2028-29</text>
+        <text x="650" y="250" text-anchor="middle">2029-30</text>
+      </g>
+      <polyline points="110,30.4 290,75.0 470,88.1 650,113.7" fill="none" stroke="#13293D" stroke-width="3" stroke-linejoin="round"/>
+      <polyline points="110,30.4 290,84.3 470,112.2 650,152.5" fill="none" stroke="#B9481C" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="110" cy="30.4" r="5" fill="#13293D"/>
+      <text x="122" y="24" font-size="13" font-weight="600" fill="#1B2430">1,490 forecast</text>
+      <line x1="282" y1="75.0" x2="282" y2="52.5" stroke="#13293D" stroke-width="2" stroke-dasharray="2 3"/>
+      <circle cx="282" cy="48.0" r="4.5" fill="#F4F6F7" stroke="#13293D" stroke-width="2"/>
+      <text x="272" y="52" text-anchor="end" font-size="13" font-weight="600" fill="#13293D">1,356</text>
+      <line x1="298" y1="85.5" x2="298" y2="61.8" stroke="#B9481C" stroke-width="2" stroke-dasharray="2 3"/>
+      <circle cx="298" cy="57.3" r="4.5" fill="#F4F6F7" stroke="#B9481C" stroke-width="2"/>
+      <text x="308" y="62" font-size="13" font-weight="600" fill="#B9481C">1,285</text>
+      <text x="308" y="47" font-size="12" fill="#4A5866" style="font-family: 'TB Sans', sans-serif">if this year’s overruns recur</text>
+      <text x="480" y="84" font-size="13" font-weight="600" fill="#13293D">1,050</text>
+      <text x="480" y="134" font-size="13" font-weight="600" fill="#B9481C">867</text>
+      <text x="634" y="94" text-anchor="end" font-size="13" font-weight="600" fill="#13293D">856–862</text>
+      <text x="640" y="174" text-anchor="end" font-size="13" font-weight="600" fill="#B9481C">560</text>
+    </svg>
+    <figcaption>2027-28: Plan A 1,150 and Plan B 1,079; if this year’s overruns recur, 1,356 and 1,285, against 1,384 on the plan. Every line assumes the government’s targets are delivered ($590 million, rising to $882 million by 2029-30), and Plan B that every lever is agreed. The government’s plan (Addendum Table 3.2) is within $6 million of Plan A, so they share one line.</figcaption>
+  </figure>
+
+  <figure style="margin-top: 22px">
+    <span class="ft">Why the consultation tool can’t balance it</span>
+    <svg width="688" height="84" viewBox="0 0 688 84" role="img" aria-label="The tool's deficit is $1,236 million; the deepest cut the tool allows is $508 million, 41 percent of the gap.">
+      <rect x="0" y="4" width="654" height="30" fill="#13293D"/>
+      <text x="644" y="24" text-anchor="end" font-size="14" font-weight="600" fill="#F4F6F7">$1,236M deficit in the tool</text>
+      <rect x="0" y="46" width="269.1" height="30" fill="#B9481C"/>
+      <text x="280" y="66" font-size="14" font-weight="600" fill="#1B2430">$508M: the deepest cut it allows (41%)</text>
+    </svg>
+    <figcaption>Taxes, fees and federal transfers are locked; departments move up to 5% either way; Health can only go up.</figcaption>
+  </figure>
+
+  <div class="foot"><span>Own costs first · Budget 2027-28 submission</span><span>Where things stand</span></div>
+</section>
+
+</body>
+</html>

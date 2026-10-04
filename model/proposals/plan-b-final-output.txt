@@ -1,0 +1,22 @@
+$ millions, after contingency                                                          2027-28   2028-29   2029-30
+Government plan (Addendum Table 3.2)                                                   1,148.8   1,052.1     861.7
+Plan A (path.py, reviewed measures)                                                    1,150.2   1,050.4     855.7
+  less B1 Wage settlements 1 point below plan on open increases (negotiated)              22.6      84.6     150.2
+  less B2 Physician services growth 1.5 points slower (April 2027 agreement)              22.8      46.9      72.5
+  less B3 Drug programs growth 1 point slower                                              4.9      10.1      15.6
+  less B4 Home care growth 1 point slower                                                  5.1      10.5      16.3
+  less B5 Departments to 5%, learning and trades lines held whole                         14.1      24.3      25.0
+  less extra interest saved                                                                1.5       6.7      16.5
+Plan B                                                                                 1,079.2     867.2     559.6
+Plan B net debt-to-GDP (excl. capital pacing)                                            42.7%     44.7%     45.3%
+
+2027-28 if this year's overruns recur: plan 1,384.2; with Plan A 1,356.0; with Plan B 1,285.0
+
+Plan B below the government's plan in 2029-30: 302.1 (65% of the plan's deficit remains)
+
+Sensitivities (Plan B deficit, $M)                                                     2027-28   2028-29   2029-30
+  Without B5 (no room left under a combined 5%)                                        1,093.7     892.6     586.7
+  Physicians share half of B2 back (Alberta 2022 style)                                1,090.9     891.7     598.1
+  Open steps from Nov 2025, Aug 2026, Nov 2026 also settle 1 point lower                 997.9     780.0     466.2
+  B1 base cut for the workforce steps (verifier: up to 11 less in 2029-30)             1,079.2     867.2     570.8
+  Wage points a year below plan needed for zero in 2029-30 (other levers fixed): 4.54

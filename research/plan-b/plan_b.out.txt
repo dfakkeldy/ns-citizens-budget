@@ -1,0 +1,90 @@
+PLAN B: balance by 2029-30 without raising taxes (built on Plan A)
+Interest on avoided borrowing: 4.2%, half rate in the first year (model/path.py)
+Growth index for lever bases (plan's departmental spending before FSP): 2027-28 1.017, 2028-29 1.048, 2029-30 1.078
+
+Lever bases ($M)
+  NSH + IWK compensation 2025-26 ............   3274.3
+  Teachers' salaries (TPP, derived) ..........   1285.6
+  Civil service salary line 2026-27 ..........   1292.7  (2.0% on 1 Apr 2027 = 25.9, fixed)
+  Physician services (Sept-forecast basis) ...   1493.1
+  Drug programs (Sept-forecast basis) ........    483.3
+  Home care (Sept-forecast basis) ............    503.3
+  1 point on open wage settlements, default calendar: 2027-28 22.6, 2028-29 84.6, 2029-30 150.2
+  1 point incl. already-open Nov 2025/Aug 2026/Nov 2026 steps: 2027-28 102.3, 2028-29 166.7, 2029-30 234.7
+
+Lever 3: 5% of each non-protected department's unprotected lines, less what Plan A takes ($M, 2026-27 base)
+  Department                                    base    held  5% rest  Plan A   extra
+  Advanced Education                           544.2   531.5     0.63    0.00    0.63
+  Agriculture                                   48.0     0.0     2.40    0.00    2.40
+  Communities, Culture, Tourism and Heritage   162.9   110.8     2.61    0.00    2.61
+  Cyber Security and Digital Solutions         322.8    17.4    15.27    9.68    5.59
+  Energy                                        46.0     0.0     2.30    2.30    0.00
+  Environment and Climate Change                59.9    14.7     2.26    0.00    2.26
+  Finance and Treasury Board                    48.2     0.0     2.41    0.96    1.45
+  Fisheries and Aquaculture                     17.9     0.0     0.90    0.00    0.90
+  Growth and Development                       456.9   361.7     4.76    4.57    0.19
+  Labour, Skills and Immigration               432.0   400.2     1.59    0.00    1.59
+  Natural Resources                            131.5    28.2     5.16    0.00    5.16
+  Corporate Offices                            165.4    58.3     5.36    4.96    0.39
+  Service Nova Scotia                          172.8   105.9     3.34    3.46    0.00
+  13 departments                              2608.5  1628.7    48.99   25.94   23.16
+  Held whole as learning and trades lines: university grants 460.9, NSCC 196.4, Apprenticeship Agency 50.0, Skills and Learning 131.3
+
+Consultation tool: every allowed 5% cut = 508.4 (72% in 'protected' departments); tool deficit 1,235.7 -> 727.4
+
+Plan A deficits: reviewed model (final-measures.json, used throughout) 1,150.2 / 1,050.4 / 855.7
+
+SCENARIO 1 - PLAN B PACKAGE (top of the Canadian negotiated record): wages 1 pt below plan on every open increase from 1 Apr 2027; physicians 1.5 pts; drugs 1 pt; home care 1 pt; departments to 5%
+$ millions                                           2027-28   2028-29   2029-30
+Government plan (Addendum Table 3.2)                 1,148.8   1,052.1     861.7
+Plan A deficit                                       1,150.2   1,050.4     855.7
+  less Wages: open settlements                          22.6      84.6     150.2
+  less Physician services                               22.8      46.9      72.5
+  less Drug programs                                     4.9      10.1      15.6
+  less Home care                                         5.1      10.5      16.3
+  less Departments to 5% (ex Municipal Affairs)         14.1      24.3      25.0
+  Plan B levers, total                                  69.5     176.5     279.6
+  less extra interest saved (path.py method)             1.5       6.7      16.5
+Plan B deficit                                       1,079.2     867.2     559.6
+Plan B net debt-to-GDP                                 42.7%     44.7%     45.3%
+
+SCENARIO 2 - PRECEDENT-SIZED FLOOR: wages 0.55 pt (BC 2014 mandate ~1.45%/yr incl. dividends vs 2%/yr); physicians 1 pt (Alberta 2022: 1%/yr); drugs 1; home care 1; departments to 5%
+$ millions                                           2027-28   2028-29   2029-30
+Government plan (Addendum Table 3.2)                 1,148.8   1,052.1     861.7
+Plan A deficit                                       1,150.2   1,050.4     855.7
+  less Wages: open settlements                          12.4      46.5      82.6
+  less Physician services                               15.2      31.3      48.3
+  less Drug programs                                     4.9      10.1      15.6
+  less Home care                                         5.1      10.5      16.3
+  less Departments to 5% (ex Municipal Affairs)         14.1      24.3      25.0
+  Plan B levers, total                                  51.8     122.8     187.8
+  less extra interest saved (path.py method)             1.1       4.8      11.5
+Plan B deficit                                       1,097.4     922.9     656.3
+Plan B net debt-to-GDP                                 42.7%     44.8%     45.5%
+
+SCENARIO 3 - TO ZERO IN 2029-30: Plan B package with wages solved = 4.54 pts below plan every open year
+$ millions                                           2027-28   2028-29   2029-30
+Government plan (Addendum Table 3.2)                 1,148.8   1,052.1     861.7
+Plan A deficit                                       1,150.2   1,050.4     855.7
+  less Wages: open settlements                         102.6     384.2     682.2
+  less Physician services                               22.8      46.9      72.5
+  less Drug programs                                     4.9      10.1      15.6
+  less Home care                                         5.1      10.5      16.3
+  less Departments to 5% (ex Municipal Affairs)         14.1      24.3      25.0
+  Plan B levers, total                                 149.6     476.1     811.5
+  less extra interest saved (path.py method)             3.1      16.4      44.1
+Plan B deficit                                         997.5     557.9      -0.0
+Plan B net debt-to-GDP                                 42.6%     44.1%     44.1%
+
+Sensitivities (2029-30 deficit, $M)
+  Plan B package, retro steps counted (Nov 2025, Aug 2026, Nov 2026)                 466.2
+  Wage points needed for zero, retro steps counted ............................       2.85
+  Health points needed for zero (all three health lines, wages at 1 pt) .........       7.86
+
+If this year's overruns recur (risk case = plan + 235.4/yr, less Plan A's 'protect' measures):
+  Plan B package deficit in risk case: 1,285.6 / 1,054.6 / 728.0
+
+Not modelled: the Bill 148 remedy (Premier: 'at least $300 million', 'not in the budget'); whether any part recurs is unverified. It would add to every column above.
+
+Illustration only: Plan B package residual in 2029-30 = 559.6. If it then fell by the plan's own 2028-29 to 2029-30 slope (190.4/yr) with Plan B savings held flat, the first year at or below zero would be 2032-33.
+Closing the 2029-30 residual instead would need about 560 more of cuts beyond the three levers (2.9% of 2029-30 departmental spending before FSP).

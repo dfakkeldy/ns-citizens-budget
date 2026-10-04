@@ -1,0 +1,15 @@
+name: Suggest a change
+description: Better wording, a clearer explanation, a missing caveat or a design fix.
+labels: [suggestion]
+body:
+  - type: input
+    id: where
+    attributes:
+      label: Where?
+      description: Document and page, or "throughout".
+    validations: { required: true }
+  - type: textarea
+    id: change
+    attributes:
+      label: What would you change, and why?
+    validations: { required: true }

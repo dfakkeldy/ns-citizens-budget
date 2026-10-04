@@ -1,0 +1,61 @@
+# book.yaml: everything about the submission that isn't its text.
+# Text: src/chapters/*.md; glossary: src/glossary.yaml; Plan B cards: src/cards.yaml.
+# The designed front pages (cover, at a glance, where things stand) are in front/
+# and are merged in front of this book by build_all.sh.
+# Rebuild: ./build_all.sh   (or .venv/bin/python build/build.py && build/check_all.sh)
+
+title: Own costs first
+subtitle: A 2027-28 budget for Nova Scotia that starts with government's own costs
+kicker: Submission to Building Our Budget Together
+blurb: >-
+  A plan the government can adopt now, and a priced path toward balance that raises no taxes.
+date: Facts as of 3 October 2026.
+running_head: Own costs first · Budget 2027-28
+lang: en-CA
+
+page:
+  size: letter
+
+layout:
+  body: rail
+
+theme:                    # harbour navy and buoy orange, to match the front pages
+  accent: "#13293D"
+  accent_tint: "#E3E9EF"
+  accent_mid: "#9AA6B1"
+  caution: "#B9481C"
+  caution_tint: "#F7E3D8"
+  ink2: "#4a4843"
+
+fonts:
+  serif: Source Serif 4
+  sans: Atkinson Hyperlegible Next
+  serif_bold: 600
+
+footer:
+  reminders: false
+
+toc_depth: 2
+
+labels:
+  footer: Words on this page
+  source: Where this comes from
+  action: Asks of
+
+checks:
+  not_acronyms: [PENDING, II]
+
+editions:
+  public:
+    file: own-costs-first-budget-2027-28-body.pdf
+    contents: ["@toc", 01-standing.md, 02-plan-a.md, 03-plan-b.md, 04-homes-growth.md, 05-protect-questions.md, "@glossary", 99-sources.md]
+    forbid:
+      - "(?i)/Users/"
+      - "PRIVATE"
+      - "(?i)not for circulation"
+      - "(?i)foipop request"
+      - "dfakkeldy"
+      - "(?i)codex"
+      - "\\[PENDING\\]"
+      - "99-other/"
+      - "(?i)0[1-4]-(reference|requests|leads|my-data)"

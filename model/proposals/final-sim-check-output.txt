@@ -1,0 +1,12 @@
+Department                                                      Current  Change    $ change
+Growth and Development                                          $456.9M     -1%      -$4.6M
+Cyber Security and Digital Solutions                            $322.8M     -3%      -$9.7M
+Service Nova Scotia                                             $172.8M     -2%      -$3.5M
+Corporate Offices                                               $165.4M     -3%      -$5.0M
+Finance and Treasury Board                                       $48.2M     -2%      -$1.0M
+Energy                                                           $46.0M     -5%      -$2.3M
+
+Total department change: -$25.9M
+Simulator deficit: -$1,235.7M -> -$1,209.8M
+
+Rule check: passes
