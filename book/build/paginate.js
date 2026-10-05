@@ -325,7 +325,7 @@
       const limitAbs = pb.getBoundingClientRect().top + limitFor(fh) - SPLIT_ALLOW - attempt * 24;
       const rest = split(trial, limitAbs);
       if (!rest) { trial.remove(); break; }
-      if (fits()) { trial.dataset.attempt = String(attempt); return refill(el, trial, rest, attempt); }
+      if (fits()) return refill(el, trial, rest, attempt);
       trial.remove();
     }
     renderFooter(footerModel(pageTerms()));
@@ -348,7 +348,7 @@
       pb.appendChild(t2);
       const r2 = split(t2, limitAbs);
       if (r2 && fits() && t2.getBoundingClientRect().bottom > before + 1) {
-        t2.dataset.split = '1'; t2.dataset.attempt = String(attempt) + 'r' + pass;
+        t2.dataset.split = '1';
         best = {rest: r2, placed: t2};
         continue;
       }
