@@ -325,9 +325,7 @@
       const limitAbs = pb.getBoundingClientRect().top + limitFor(fh) - SPLIT_ALLOW - attempt * 24;
       const rest = split(trial, limitAbs);
       if (!rest) { trial.remove(); break; }
-      const dbgTop = pb.getBoundingClientRect().top;
-      const dbg = {a: attempt, fh: Math.round(fh), lim: Math.round(limitAbs - dbgTop), bot: Math.round(trial.getBoundingClientRect().bottom - dbgTop)};
-      if (fits()) { dbg.fh2 = Math.round(gf.getBoundingClientRect().height); dbg.cb = Math.round(contentBottom()); trial.dataset.attempt = JSON.stringify(dbg); return refill(el, trial, rest, attempt); }
+      if (fits()) { trial.dataset.attempt = String(attempt); return refill(el, trial, rest, attempt); }
       trial.remove();
     }
     renderFooter(footerModel(pageTerms()));
@@ -344,7 +342,7 @@
       const before = best.placed.getBoundingClientRect().bottom;
       const fh = renderFooter(footerModel(pageTerms()));
       const limitAbs = pb.getBoundingClientRect().top + limitFor(fh) - SPLIT_ALLOW - attempt * 24;
-      if (limitAbs <= before + 1) { best.placed.dataset.rf = 'nolimit ' + Math.round(limitAbs - before); break; }
+      if (limitAbs <= before + 1) break;
       best.placed.remove();
       const t2 = el.cloneNode(true);
       pb.appendChild(t2);
@@ -354,11 +352,8 @@
         best = {rest: r2, placed: t2};
         continue;
       }
-      const why = !r2 ? 'nosplit' : (!fits() ? 'nofit' : 'nogain');
-      const t2b = Math.round(t2.getBoundingClientRect().bottom - before);
       t2.remove();
       pb.appendChild(best.placed);
-      best.placed.dataset.rf = why + ' room ' + Math.round(limitAbs - before) + ' t2gain ' + t2b;
       break;
     }
     renderFooter(footerModel(pageTerms()));
