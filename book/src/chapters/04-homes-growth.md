@@ -76,5 +76,5 @@ The UK's Made Smarter evaluation did not detect a statistically significant empl
 :::
 
 ::: {.rail label="Seafood"}
-**Seafood before the tariff cliff.** China's tariff suspension ends on 31 December 2026 [1]. Live lobster flies to Asia from Halifax Stanfield airport [65]. Use existing market-diversification money with the Trade Commissioner Service and ACOA now, and federal money first for dual-use ports in Halifax and Sydney.
+**Seafood before the tariff cliff.** China's tariff suspension ends on 31 December 2026 [1]. Live lobster flies to Asia from Halifax Stanfield airport [65]. Use existing market-diversification money with the Trade Commissioner Service and ACOA now. For dual-use port works in Halifax and Sydney, use federal money first.
 :::
