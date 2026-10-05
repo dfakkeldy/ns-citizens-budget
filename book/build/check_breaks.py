@@ -5,7 +5,8 @@ near-empty pages; and pages where the body overflowed into the footer.
     .venv/bin/python build/check_breaks.py <edition>
 Also fails pages that end in a split block yet leave too much free space above the footer
 (the split was made too early): over about 1.5 lines after a paragraph split, about 4 lines
-after a list or table split.
+after a list or table split. Lines the paginator moved over to avoid a widow (data-held, in px)
+are added to the allowance.
 Stranded lead-ins, early splits and overflow fail; near-empty pages are reported only.
 """
 import json, os, re, sys
@@ -39,6 +40,9 @@ def main(ed):
         split_end = last.get("data-split") or last.select_one("[data-split]")
         text_split = last.get("data-textsplit") or last.select_one("[data-textsplit]")
         limit = EARLY_TEXT_SPLIT_PX if text_split else EARLY_SPLIT_PX
+        held = last if last.get("data-held") else last.select_one("[data-held]")
+        if held:
+            limit += int(held["data-held"])
         if split_end and int(pg.get("data-free", "0")) > limit:
             early.append((pg["data-n"], int(pg["data-free"])))
         t = re.sub(r"\s+", " ", last.get_text(" ", strip=True))

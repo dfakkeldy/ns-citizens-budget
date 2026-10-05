@@ -225,6 +225,7 @@
     if (n < 4) return null;
     let k = 0;
     while (k < n && lines[k].bottom <= limitAbs) k++;
+    const fit = k;
     k = Math.min(k, n - 2);           // keep 2 lines for the next page (widows)
     if (k < 2) return null;           // need 2 lines here (orphans)
     const pos = textPositionAt(el, lines[k].top);
@@ -236,6 +237,9 @@
     rest.appendChild(r2.extractContents());
     rest.classList.add('cont');
     el.dataset.textsplit = '1';       // split between lines, so the page should end within about a line
+    // Lines that would have fitted but moved over to avoid a widow leave that much more space;
+    // check_breaks allows for it. How many depends on where the text wraps, which varies by platform.
+    if (fit > k) el.dataset.held = String(Math.round(lines[Math.min(fit, n) - 1].bottom - lines[k - 1].bottom));
     // trim leading whitespace of the continuation
     const w = document.createTreeWalker(rest, NodeFilter.SHOW_TEXT);
     const t = w.nextNode(); if (t) t.data = t.data.replace(/^\s+/, '');
