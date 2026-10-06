@@ -87,7 +87,7 @@ Province-wide health transformation spending rose from $277.1 million in 2023-24
 :::
 
 ::: {.rail label="Competition"}
-Act on the Auditor General's March 2026 recommendations, which Nova Scotia Health accepted, on the more than $3.7 billion it has awarded through alternative (non-competitive) procurement since 2020 [19]. The audit did not measure value for money, so it supports better controls rather than a measured saving rate. Apply competition to future awards and to material additions beyond existing contract rights; honour contracted options; and report the outcome of the virtual-care tender, with patient services continuing throughout.
+Act on the Auditor General's March 2026 recommendations, which Nova Scotia Health accepted, on the more than $3.7 billion it has awarded through alternative (non-competitive) procurement since 2020 [19]. The audit did not measure value for money, so it supports better controls rather than a measured saving rate. Honour the rights suppliers hold under signed contracts, and apply competition to future awards and to material additions beyond what signed contracts already provide. Nova Scotia Health has agreed to schedule competitive re-tendering when contracts reach their natural end [19]. Where it can choose whether to extend or renew a contract, I propose it first check whether re-tendering would give better value. Report the outcome of the virtual-care tender, with patient services continuing throughout.
 :::
 
 ::: {.rail label="Home First"}
